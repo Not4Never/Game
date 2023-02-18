@@ -1,1 +1,2124 @@
+#include <iostream>
+#include<chrono>
+#include<thread>
+using namespace std;
 
+string bgtxt;
+string check;
+
+string s11;
+string s12;
+string s13;
+string s14;
+string s15;
+string s16;
+string s21;
+string s22;
+string s23;
+string s24;
+string s25;
+string s26;
+string s31;
+string s32;
+string s33;
+string s34;
+string s35;
+string s36;
+string s41;
+string s42;
+string s43;
+string s44;
+string s45;
+string s46;
+string s51;
+string s52;
+string s53;
+string s54;
+string s55;
+string s56;
+string s61;
+string s62;
+string s63;
+string s64;
+string s65;
+string s66;
+string s71;
+string s72;
+string s73;
+string s74;
+string s75;
+string s76;
+
+string first;
+string second;
+string third;
+string fourth;
+string fifth;
+string sixth;
+string seventh;
+string eighth;
+string ninth;
+string tenth;
+string eleventh;
+string twelve;
+string thirteen;
+string fourteen;
+string fifteen;
+string sixteen;
+string seventeen;
+string eighteen;
+string nineteen;
+string twenty;
+string twentyone;
+string twentytwo;
+string twentythree;
+string twentyfour;
+string twentyfive;
+string twentysix;
+string twentyseven;
+string twentyeight;
+string twentynine;
+string thirty;
+string thirtyone;
+string thirtytwo;
+string thirtythree;
+string thirtyfour;
+string thirtyfive;
+string thirtysix;
+string thirtyseven;
+string thirtyeight;
+string thirtynine;
+string fourty;
+string fourtyone;
+string fourtytwo;
+/*BEFORE COPY AND PASTING SOMETHING TO EVERYTHING, MAKE SURE WE HAVE DONE EVERYTHING RIGHT,
+AND THAT WE HAVE DONE ALL THAT WE WANT FOR THAT SECTION*/
+void BG()
+{
+    cout << endl << "What color background and text would you want? An example of an input would be 02, which would show a black background with green text. The first number/letter represents the background color while the second represents the text color. Two of the same number/color in a row does not work" << endl << endl << "Options: 0 = Black, 1 = Blue, 2 = Green, 3 = Aqua, 4 = Red, 5 = Purple, 6 = Yellow, 7 = White, 8 = Gray" << endl << endl;
+    cin >> bgtxt;
+
+    if (bgtxt == "00") {
+        system("color 00");
+    }
+
+    else if (bgtxt == "01") {
+        system("color 01");
+    }
+
+    else if (bgtxt == "02") {
+        system("color 02");
+    }
+
+    else if (bgtxt == "03") {
+        system("color 03");
+    }
+
+    else if (bgtxt == "04") {
+        system("color 04");
+    }
+
+    else if (bgtxt == "05") {
+        system("color 05");
+    }
+
+    else if (bgtxt == "06") {
+        system("color 06");
+    }
+
+    else if (bgtxt == "07") {
+        system("color 07");
+    }
+
+    else if (bgtxt == "08") {
+        system("color 08");
+    }
+
+    else if (bgtxt == "09") {
+        system("color 09");
+    }
+
+    else if (bgtxt == "10") {
+        system("color 10");
+    }
+
+    else if (bgtxt == "11") {
+        system("color 11");
+    }
+
+    else if (bgtxt == "12") {
+        system("color 12");
+    }
+
+    else if (bgtxt == "13") {
+        system("color 13");
+    }
+
+    else if (bgtxt == "14") {
+        system("color 14");
+    }
+
+    else if (bgtxt == "15") {
+        system("color 15");
+    }
+
+    else if (bgtxt == "16") {
+        system("color 16");
+    }
+
+    else if (bgtxt == "17") {
+        system("color 17");
+    }
+
+    else if (bgtxt == "18") {
+        system("color 18");
+    }
+
+    else if (bgtxt == "19") {
+        system("color 19");
+    }
+
+    else if (bgtxt == "20") {
+        system("color 20");
+    }
+
+    else if (bgtxt == "21") {
+        system("color 21");
+    }
+
+    else if (bgtxt == "22") {
+        system("color 22");
+    }
+
+    else if (bgtxt == "23") {
+        system("color 23");
+    }
+
+    else if (bgtxt == "24") {
+        system("color 24");
+    }
+
+    else if (bgtxt == "25") {
+        system("color 25");
+    }
+
+    else if (bgtxt == "26") {
+        system("color 26");
+    }
+
+    else if (bgtxt == "27") {
+        system("color 27");
+    }
+
+    else if (bgtxt == "28") {
+        system("color 28");
+    }
+
+    else if (bgtxt == "29") {
+        system("color 29");
+    }
+
+    else if (bgtxt == "30") {
+        system("color 30");
+    }
+
+    else if (bgtxt == "31") {
+        system("color 31");
+    }
+
+    else if (bgtxt == "32") {
+        system("color 32");
+    }
+
+    else if (bgtxt == "33") {
+        system("color 33");
+    }
+
+    else if (bgtxt == "34") {
+        system("color 34");
+    }
+
+    else if (bgtxt == "35") {
+        system("color 35");
+    }
+
+    else if (bgtxt == "36") {
+        system("color 36");
+    }
+
+    else if (bgtxt == "37") {
+        system("color 37");
+    }
+
+    else if (bgtxt == "38") {
+        system("color 38");
+    }
+
+    else if (bgtxt == "39") {
+        system("color 39");
+    }
+
+    else if (bgtxt == "40") {
+        system("color 40");
+    }
+
+    else if (bgtxt == "41") {
+        system("color 41");
+    }
+
+    else if (bgtxt == "42") {
+        system("color 42");
+    }
+
+    else if (bgtxt == "43") {
+        system("color 43");
+    }
+
+    else if (bgtxt == "44") {
+        system("color 44");
+    }
+
+    else if (bgtxt == "45") {
+        system("color 45");
+    }
+
+    else if (bgtxt == "46") {
+        system("color 46");
+    }
+
+    else if (bgtxt == "47") {
+        system("color 47");
+    }
+
+    else if (bgtxt == "48") {
+        system("color 48");
+    }
+
+    else if (bgtxt == "49") {
+        system("color 49");
+    }
+
+    else if (bgtxt == "50") {
+        system("color 50");
+    }
+
+    else if (bgtxt == "51") {
+        system("color 51");
+    }
+
+    else if (bgtxt == "52") {
+        system("color 52");
+    }
+
+    else if (bgtxt == "53") {
+        system("color 53");
+    }
+
+    else if (bgtxt == "54") {
+        system("color 54");
+    }
+
+    else if (bgtxt == "55") {
+        system("color 55");
+    }
+
+    else if (bgtxt == "56") {
+        system("color 56");
+    }
+
+    else if (bgtxt == "57") {
+        system("color 57");
+    }
+
+    else if (bgtxt == "58") {
+        system("color 58");
+    }
+
+    else if (bgtxt == "59") {
+        system("color 59");
+    }
+
+    else if (bgtxt == "60") {
+        system("color 60");
+    }
+
+    else if (bgtxt == "61") {
+        system("color 61");
+    }
+
+    else if (bgtxt == "62") {
+        system("color 62");
+    }
+
+    else if (bgtxt == "63") {
+        system("color 63");
+    }
+
+    else if (bgtxt == "64") {
+        system("color 64");
+    }
+
+    else if (bgtxt == "65") {
+        system("color 65");
+    }
+
+    else if (bgtxt == "66") {
+        system("color 66");
+    }
+
+    else if (bgtxt == "67") {
+        system("color 67");
+    }
+
+    else if (bgtxt == "68") {
+        system("color 68");
+    }
+
+    else if (bgtxt == "69") {
+        system("color 69");
+    }
+
+    else if (bgtxt == "70") {
+        system("color 70");
+    }
+
+    else if (bgtxt == "71") {
+        system("color 71");
+    }
+
+    else if (bgtxt == "72") {
+        system("color 72");
+    }
+
+    else if (bgtxt == "73") {
+        system("color 73");
+    }
+
+    else if (bgtxt == "74") {
+        system("color 74");
+    }
+
+    else if (bgtxt == "75") {
+        system("color 75");
+    }
+
+    else if (bgtxt == "76") {
+        system("color 76");
+    }
+
+    else if (bgtxt == "77") {
+        system("color 77");
+    }
+
+    else if (bgtxt == "78") {
+        system("color 78");
+    }
+
+    else if (bgtxt == "79") {
+        system("color 79");
+    }
+
+    else if (bgtxt == "80") {
+        system("color 80");
+    }
+
+    else if (bgtxt == "81") {
+        system("color 81");
+    }
+
+    else if (bgtxt == "82") {
+        system("color 82");
+    }
+
+    else if (bgtxt == "83") {
+        system("color 83");
+    }
+
+    else if (bgtxt == "84") {
+        system("color 84");
+    }
+
+    else if (bgtxt == "85") {
+        system("color 85");
+    }
+
+    else if (bgtxt == "86") {
+        system("color 86");
+    }
+
+    else if (bgtxt == "87") {
+        system("color 87");
+    }
+
+    else if (bgtxt == "88") {
+        system("color 88");
+    }
+
+    else {
+        cout << endl << "Sorry, your selection is not valid." << endl;
+    }
+};
+void BoardX()
+{
+    system("cls");
+    string width6[] = { s16, s26, s36, s46, s56, s66, s76 };
+    size_t n6 = sizeof(width6) / sizeof(width6[0]);
+    cout << "+---+---+---+---+---+---+---+\n";
+    cout << "| ";
+    for (size_t i = 0; i < n6; i++) {
+        cout << width6[i] << " | ";
+    }
+    cout << "\n+---+---+---+---+---+---+---+\n";
+    string width5[] = { s15, s25, s35, s45, s55, s65, s75 };
+    size_t n5 = sizeof(width5) / sizeof(width5[0]);
+    cout << "| ";
+    for (size_t i = 0; i < n5; i++) {
+        cout << width5[i] << " | ";
+    }
+    cout << "\n+---+---+---+---+---+---+---+\n";
+    string width4[] = { s14, s24, s34, s44, s54, s64, s74 };
+    size_t n4 = sizeof(width4) / sizeof(width4[0]);
+    cout << "| ";
+    for (size_t i = 0; i < n4; i++) {
+        cout << width4[i] << " | ";
+    }
+    cout << "\n+---+---+---+---+---+---+---+\n";
+    string width3[] = { s13, s23, s33, s43, s53, s63, s73 };
+    size_t n3 = sizeof(width3) / sizeof(width3[0]);
+    cout << "| ";
+    for (size_t i = 0; i < n3; i++) {
+        cout << width3[i] << " | ";
+    }
+    cout << "\n+---+---+---+---+---+---+---+\n";
+    string width2[] = { s12, s22, s32, s42, s52, s62, s72 };
+    size_t n2 = sizeof(width2) / sizeof(width2[0]);
+    cout << "| ";
+    for (size_t i = 0; i < n2; i++) {
+        cout << width2[i] << " | ";
+    }
+    cout << "\n+---+---+---+---+---+---+---+\n";
+    string width1[] = { s11, s21, s31, s41, s51, s61, s71 };
+    size_t n1 = sizeof(width1) / sizeof(width1[0]);
+    cout << "| ";
+    for (size_t i = 0; i < n1; i++) {
+        cout << width1[i] << " | ";
+    }
+    cout << "\n+---+---+---+---+---+---+---+\n";
+    cout << "\nWhere would X like to go?\n";
+}
+void BoardO()
+{
+    system("cls");
+    string width6[] = { s16, s26, s36, s46, s56, s66, s76 };
+    size_t n6 = sizeof(width6) / sizeof(width6[0]);
+    cout << "+---+---+---+---+---+---+---+\n";
+    cout << "| ";
+    for (size_t i = 0; i < n6; i++) {
+        cout << width6[i] << " | ";
+    }
+    cout << "\n+---+---+---+---+---+---+---+\n";
+    string width5[] = { s15, s25, s35, s45, s55, s65, s75 };
+    size_t n5 = sizeof(width5) / sizeof(width5[0]);
+    cout << "| ";
+    for (size_t i = 0; i < n5; i++) {
+        cout << width5[i] << " | ";
+    }
+    cout << "\n+---+---+---+---+---+---+---+\n";
+    string width4[] = { s14, s24, s34, s44, s54, s64, s74 };
+    size_t n4 = sizeof(width4) / sizeof(width4[0]);
+    cout << "| ";
+    for (size_t i = 0; i < n4; i++) {
+        cout << width4[i] << " | ";
+    }
+    cout << "\n+---+---+---+---+---+---+---+\n";
+    string width3[] = { s13, s23, s33, s43, s53, s63, s73 };
+    size_t n3 = sizeof(width3) / sizeof(width3[0]);
+    cout << "| ";
+    for (size_t i = 0; i < n3; i++) {
+        cout << width3[i] << " | ";
+    }
+    cout << "\n+---+---+---+---+---+---+---+\n";
+    string width2[] = { s12, s22, s32, s42, s52, s62, s72 };
+    size_t n2 = sizeof(width2) / sizeof(width2[0]);
+    cout << "| ";
+    for (size_t i = 0; i < n2; i++) {
+        cout << width2[i] << " | ";
+    }
+    cout << "\n+---+---+---+---+---+---+---+\n";
+    string width1[] = { s11, s21, s31, s41, s51, s61, s71 };
+    size_t n1 = sizeof(width1) / sizeof(width1[0]);
+    cout << "| ";
+    for (size_t i = 0; i < n1; i++) {
+        cout << width1[i] << " | ";
+    }
+    cout << "\n+---+---+---+---+---+---+---+\n";
+    cout << "\nWhere would O like to go?\n";
+}
+void Vars()
+{
+    s11 = "1";
+    s12 = "1";
+    s13 = "1";
+    s14 = "1";
+    s15 = "1";
+    s16 = "1";
+    s21 = "2";
+    s22 = "2";
+    s23 = "2";
+    s24 = "2";
+    s25 = "2";
+    s26 = "2";
+    s31 = "3";
+    s32 = "3";
+    s33 = "3";
+    s34 = "3";
+    s35 = "3";
+    s36 = "3";
+    s41 = "4";
+    s42 = "4";
+    s43 = "4";
+    s44 = "4";
+    s45 = "4";
+    s46 = "4";
+    s51 = "5";
+    s52 = "5";
+    s53 = "5";
+    s54 = "5";
+    s55 = "5";
+    s56 = "5";
+    s61 = "6";
+    s62 = "6";
+    s63 = "6";
+    s64 = "6";
+    s65 = "6";
+    s66 = "6";
+    s71 = "7";
+    s72 = "7";
+    s73 = "7";
+    s74 = "7";
+    s75 = "7";
+    s76 = "7";
+}
+void Wins()
+{
+    if (s11 == "X" && s12 == "X" && s13 == "X" && s14 == "X")
+    {
+        cout << "X wins!";
+        this_thread::sleep_for(chrono::milliseconds(1500));
+    }
+    else if (s15 == "X" && s12 == "X" && s13 == "X" && s14 == "X")
+    {
+        cout << "X wins!";
+        this_thread::sleep_for(chrono::milliseconds(1500));
+    }
+    else if (s15 == "X" && s16 == "X" && s13 == "X" && s14 == "X")
+    {
+        cout << "X wins!";
+        this_thread::sleep_for(chrono::milliseconds(1500));
+    }
+    else if (s21 == "X" && s22 == "X" && s23 == "X" && s24 == "X")
+    {
+        cout << "X wins!";
+        this_thread::sleep_for(chrono::milliseconds(1500));
+    }
+    else if (s25 == "X" && s22 == "X" && s23 == "X" && s24 == "X")
+    {
+        cout << "X wins!";
+        this_thread::sleep_for(chrono::milliseconds(1500));
+    }
+    else if (s25 == "X" && s26 == "X" && s23 == "X" && s24 == "X")
+    {
+        cout << "X wins!";
+        this_thread::sleep_for(chrono::milliseconds(1500));
+    }
+    else if (s31 == "X" && s32 == "X" && s33 == "X" && s34 == "X")
+    {
+        cout << "X wins!";
+        this_thread::sleep_for(chrono::milliseconds(1500));
+    }
+    else if (s35 == "X" && s32 == "X" && s33 == "X" && s34 == "X")
+    {
+        cout << "X wins!";
+        this_thread::sleep_for(chrono::milliseconds(1500));
+    }
+    else if (s35 == "X" && s36 == "X" && s33 == "X" && s34 == "X")
+    {
+        cout << "X wins!";
+        this_thread::sleep_for(chrono::milliseconds(1500));
+    }
+    else if (s41 == "X" && s42 == "X" && s43 == "X" && s44 == "X")
+    {
+        cout << "X wins!";
+        this_thread::sleep_for(chrono::milliseconds(1500));
+    }
+    else if (s45 == "X" && s42 == "X" && s43 == "X" && s44 == "X")
+    {
+        cout << "X wins!";
+        this_thread::sleep_for(chrono::milliseconds(1500));
+    }
+    else if (s45 == "X" && s46 == "X" && s43 == "X" && s44 == "X")
+    {
+        cout << "X wins!";
+        this_thread::sleep_for(chrono::milliseconds(1500));
+    }
+    else if (s51 == "X" && s52 == "X" && s53 == "X" && s54 == "X")
+    {
+        cout << "X wins!";
+        this_thread::sleep_for(chrono::milliseconds(1500));
+    }
+    else if (s55 == "X" && s52 == "X" && s53 == "X" && s54 == "X")
+    {
+        cout << "X wins!";
+        this_thread::sleep_for(chrono::milliseconds(1500));
+    }
+    else if (s55 == "X" && s56 == "X" && s53 == "X" && s54 == "X")
+    {
+        cout << "X wins!";
+        this_thread::sleep_for(chrono::milliseconds(1500));
+    }
+    else if (s61 == "X" && s62 == "X" && s63 == "X" && s64 == "X")
+    {
+        cout << "X wins!";
+        this_thread::sleep_for(chrono::milliseconds(1500));
+    }
+    else if (s65 == "X" && s62 == "X" && s63 == "X" && s64 == "X")
+    {
+        cout << "X wins!";
+        this_thread::sleep_for(chrono::milliseconds(1500));
+    }
+    else if (s65 == "X" && s66 == "X" && s63 == "X" && s64 == "X")
+    {
+        cout << "X wins!";
+        this_thread::sleep_for(chrono::milliseconds(1500));
+    }
+    else if (s71 == "X" && s72 == "X" && s73 == "X" && s74 == "X")
+    {
+        cout << "X wins!";
+        this_thread::sleep_for(chrono::milliseconds(1500));
+    }
+    else if (s75 == "X" && s72 == "X" && s73 == "X" && s74 == "X")
+    {
+        cout << "X wins!";
+        this_thread::sleep_for(chrono::milliseconds(1500));
+    }
+    else if (s75 == "X" && s76 == "X" && s73 == "X" && s74 == "X")
+    {
+        cout << "X wins!";
+        this_thread::sleep_for(chrono::milliseconds(1500));
+    }
+    else if (s11 == "X" && s21 == "X" && s31 == "X" && s41 == "X")
+    {
+        cout << "X wins";
+        this_thread::sleep_for(chrono::milliseconds(1500));
+    }
+    else if (s51 == "X" && s21 == "X" && s31 == "X" && s41 == "X")
+    {
+        cout << "X wins";
+        this_thread::sleep_for(chrono::milliseconds(1500));
+    }
+    else if (s51 == "X" && s61 == "X" && s31 == "X" && s41 == "X")
+    {
+        cout << "X wins";
+        this_thread::sleep_for(chrono::milliseconds(1500));
+    }
+    else if (s51 == "X" && s61 == "X" && s71 == "X" && s41 == "X")
+    {
+        cout << "X wins";
+        this_thread::sleep_for(chrono::milliseconds(1500));
+    }
+    else if (s12 == "X" && s22 == "X" && s32 == "X" && s42 == "X")
+    {
+        cout << "X wins";
+        this_thread::sleep_for(chrono::milliseconds(1500));
+    }
+    else if (s52 == "X" && s22 == "X" && s32 == "X" && s42 == "X")
+    {
+        cout << "X wins";
+        this_thread::sleep_for(chrono::milliseconds(1500));
+    }
+    else if (s52 == "X" && s62 == "X" && s32 == "X" && s42 == "X")
+    {
+        cout << "X wins";
+        this_thread::sleep_for(chrono::milliseconds(1500));
+    }
+    else if (s52 == "X" && s62 == "X" && s72 == "X" && s42 == "X")
+    {
+        cout << "X wins";
+        this_thread::sleep_for(chrono::milliseconds(1500));
+    }
+    else if (s13 == "X" && s23 == "X" && s33 == "X" && s43 == "X")
+    {
+        cout << "X wins";
+        this_thread::sleep_for(chrono::milliseconds(1500));
+    }
+    else if (s53 == "X" && s23 == "X" && s33 == "X" && s43 == "X")
+    {
+        cout << "X wins";
+        this_thread::sleep_for(chrono::milliseconds(1500));
+    }
+    else if (s53 == "X" && s63 == "X" && s33 == "X" && s43 == "X")
+    {
+        cout << "X wins";
+        this_thread::sleep_for(chrono::milliseconds(1500));
+    }
+    else if (s53 == "X" && s63 == "X" && s73 == "X" && s43 == "X")
+    {
+        cout << "X wins";
+        this_thread::sleep_for(chrono::milliseconds(1500));
+    }
+    else if (s14 == "X" && s24 == "X" && s34 == "X" && s44 == "X")
+    {
+        cout << "X wins";
+        this_thread::sleep_for(chrono::milliseconds(1500));
+    }
+    else if (s54 == "X" && s24 == "X" && s34 == "X" && s44 == "X")
+    {
+        cout << "X wins";
+        this_thread::sleep_for(chrono::milliseconds(1500));
+    }
+    else if (s54 == "X" && s64 == "X" && s34 == "X" && s44 == "X")
+    {
+        cout << "X wins";
+        this_thread::sleep_for(chrono::milliseconds(1500));
+    }
+    else if (s54 == "X" && s64 == "X" && s74 == "X" && s44 == "X")
+    {
+        cout << "X wins";
+        this_thread::sleep_for(chrono::milliseconds(1500));
+    }
+    else if (s15 == "X" && s25 == "X" && s35 == "X" && s45 == "X")
+    {
+        cout << "X wins";
+        this_thread::sleep_for(chrono::milliseconds(1500));
+    }
+    else if (s55 == "X" && s25 == "X" && s35 == "X" && s45 == "X")
+    {
+        cout << "X wins";
+        this_thread::sleep_for(chrono::milliseconds(1500));
+    }
+    else if (s55 == "X" && s65 == "X" && s35 == "X" && s45 == "X")
+    {
+        cout << "X wins";
+        this_thread::sleep_for(chrono::milliseconds(1500));
+    }
+    else if (s55 == "X" && s65 == "X" && s75 == "X" && s45 == "X")
+    {
+        cout << "X wins";
+        this_thread::sleep_for(chrono::milliseconds(1500));
+    }
+    else if (s16 == "X" && s26 == "X" && s36 == "X" && s46 == "X")
+    {
+        cout << "X wins";
+        this_thread::sleep_for(chrono::milliseconds(1500));
+    }
+    else if (s56 == "X" && s26 == "X" && s36 == "X" && s46 == "X")
+    {
+        cout << "X wins";
+        this_thread::sleep_for(chrono::milliseconds(1500));
+    }
+    else if (s56 == "X" && s66 == "X" && s36 == "X" && s46 == "X")
+    {
+        cout << "X wins";
+        this_thread::sleep_for(chrono::milliseconds(1500));
+    }
+    else if (s56 == "X" && s66 == "X" && s76 == "X" && s46 == "X")
+    {
+        cout << "X wins";
+        this_thread::sleep_for(chrono::milliseconds(1500));
+    }
+    else if (s41 == "X" && s32 == "X" && s23 == "X" && s14 == "X")
+    {
+        cout << "X wins!";
+        this_thread::sleep_for(chrono::milliseconds(1500));
+    }
+    else if (s51 == "X" && s42 == "X" && s33 == "X" && s24 == "X")
+    {
+        cout << "X wins!";
+        this_thread::sleep_for(chrono::milliseconds(1500));
+    }
+    else if (s42 == "X" && s33 == "X" && s24 == "X" && s15 == "X")
+    {
+        cout << "X wins!";
+        this_thread::sleep_for(chrono::milliseconds(1500));
+    }
+    else if (s61 == "X" && s52 == "X" && s43 == "X" && s44 == "X")
+    {
+        cout << "X wins!";
+        this_thread::sleep_for(chrono::milliseconds(1500));
+    }
+    else if (s52 == "X" && s43 == "X" && s34 == "X" && s25 == "X")
+    {
+        cout << "X wins!";
+        this_thread::sleep_for(chrono::milliseconds(1500));
+    }
+    else if (s43 == "X" && s34 == "X" && s25 == "X" && s16 == "X")
+    {
+        cout << "X wins!";
+        this_thread::sleep_for(chrono::milliseconds(1500));
+    }
+    else if (s71 == "X" && s62 == "X" && s53 == "X" && s44 == "X")
+    {
+        cout << "X wins!";
+        this_thread::sleep_for(chrono::milliseconds(1500));
+    }
+    else if (s62 == "X" && s53 == "X" && s44 == "X" && s35 == "X")
+    {
+        cout << "X wins!";
+        this_thread::sleep_for(chrono::milliseconds(1500));
+    }
+    else if (s53 == "X" && s44 == "X" && s35 == "X" && s26 == "X")
+    {
+        cout << "X wins!";
+        this_thread::sleep_for(chrono::milliseconds(1500));
+    }
+    else if (s72 == "X" && s63 == "X" && s54 == "X" && s45 == "X")
+    {
+        cout << "X wins!";
+        this_thread::sleep_for(chrono::milliseconds(1500));
+    }
+    else if (s63 == "X" && s54 == "X" && s45 == "X" && s36 == "X")
+    {
+        cout << "X wins!";
+        this_thread::sleep_for(chrono::milliseconds(1500));
+    }
+    else if (s73 == "X" && s64 == "X" && s55 == "X" && s46 == "X")
+    {
+        cout << "X wins!";
+        this_thread::sleep_for(chrono::milliseconds(1500));
+    }
+
+	else if (s11 == "X" && s22 == "X" && s33 == "X" && s44 == "X")
+	{
+		cout << "X wins!";
+        this_thread::sleep_for(chrono::milliseconds(1500));
+	}
+
+	else if (s12 == "X" && s23 == "X" && s34 == "X" && s45 == "X")
+	{
+		cout << "X wins!";
+        this_thread::sleep_for(chrono::milliseconds(1500));
+	}
+
+	else if (s13 == "X" && s24 == "X" && s35 == "X" && s46 == "X")
+	{
+		cout << "X wins!";
+        this_thread::sleep_for(chrono::milliseconds(1500));
+	}
+
+	else if (s21 == "X" && s32 == "X" && s43 == "X" && s54 == "X")
+	{
+		cout << "X wins!";
+        this_thread::sleep_for(chrono::milliseconds(1500));
+	}
+
+	else if (s22 == "X" && s33 == "X" && s44 == "X" && s55 == "X")
+	{
+		cout << "X wins!";
+        this_thread::sleep_for(chrono::milliseconds(1500));
+	}
+
+	else if (s23 == "X" && s34 == "X" && s45 == "X" && s56 == "X")
+	{
+		cout << "X wins!";
+        this_thread::sleep_for(chrono::milliseconds(1500));
+	}
+
+	else if (s31 == "X" && s42 == "X" && s53 == "X" && s64 == "X")
+	{
+		cout << "X wins!";
+        this_thread::sleep_for(chrono::milliseconds(1500));
+	}
+
+	else if (s32 == "X" && s43 == "X" && s54 == "X" && s65 == "X")
+	{
+		cout << "X wins!";
+        this_thread::sleep_for(chrono::milliseconds(1500));
+	}
+
+	else if (s33 == "X" && s44 == "X" && s55 == "X" && s66 == "X")
+	{
+		cout << "X wins!";
+        this_thread::sleep_for(chrono::milliseconds(1500));
+	}
+
+	else if (s41 == "X" && s52 == "X" && s63 == "X" && s74 == "X")
+	{
+		cout << "X wins!";
+        this_thread::sleep_for(chrono::milliseconds(1500));
+	}
+
+	else if (s42 == "X" && s53 == "X" && s64 == "X" && s75 == "X")
+	{
+		cout << "X wins!";
+        this_thread::sleep_for(chrono::milliseconds(1500));
+	}
+
+	else if (s43 == "X" && s54 == "X" && s65 == "X" && s76 == "X")
+	{
+		cout << "X wins!";
+        this_thread::sleep_for(chrono::milliseconds(1500));
+	}
+
+	if (s11 == "O" && s12 == "O" && s13 == "O" && s14 == "O")
+	{
+		cout << "O wins!";
+		this_thread::sleep_for(chrono::milliseconds(1500));
+	}
+
+	else if (s21 == "O" && s22 == "O" && s23 == "O" && s14 == "O")
+	{
+		cout << "O wins!";
+		this_thread::sleep_for(chrono::milliseconds(1500));
+	}
+
+	else if (s31 == "O" && s32 == "O" && s33 == "O" && s34 == "O")
+	{
+		cout << "O wins!";
+		this_thread::sleep_for(chrono::milliseconds(1500));
+	}
+
+	else if (s41 == "O" && s42 == "O" && s43 == "O" && s44 == "O")
+	{
+		cout << "O wins!";
+		this_thread::sleep_for(chrono::milliseconds(1500));
+	}
+
+	else if (s51 == "O" && s52 == "O" && s53 == "O" && s54 == "O")
+	{
+		cout << "O wins!";
+		this_thread::sleep_for(chrono::milliseconds(1500));
+	}
+
+	else if (s61 == "O" && s62 == "O" && s63 == "O" && s64 == "O")
+	{
+		cout << "O wins!";
+		this_thread::sleep_for(chrono::milliseconds(1500));
+	}
+
+	else if (s71 == "O" && s72 == "O" && s73 == "O" && s74 == "O")
+	{
+		cout << "O wins!";
+         this_thread::sleep_for(chrono::milliseconds(1500));
+	}
+
+	else if (s12 == "O" && s13 == "O" && s14 == "O" && s15 == "O")
+	{
+		cout << "O wins!";
+		this_thread::sleep_for(chrono::milliseconds(1500));
+	}
+
+	else if (s22 == "O" && s23 == "O" && s24 == "O" && s25 == "O")
+	{
+		cout << "O wins!";
+		this_thread::sleep_for(chrono::milliseconds(1500));
+	}
+
+	else if (s32 == "O" && s33 == "O" && s34 == "O" && s35 == "O")
+	{
+		cout << "O wins!";
+		this_thread::sleep_for(chrono::milliseconds(1500));
+	}
+
+	else if (s42 == "O" && s43 == "O" && s44 == "O" && s45 == "O")
+	{
+		cout << "O wins!";
+		this_thread::sleep_for(chrono::milliseconds(1500));
+	}
+
+	else if (s52 == "O" && s53 == "O" && s54 == "O" && s55 == "O")
+	{
+		cout << "O wins!";
+		this_thread::sleep_for(chrono::milliseconds(1500));
+	}
+
+	else if (s62 == "O" && s63 == "O" && s64 == "O" && s65 == "O")
+	{
+		cout << "O wins!";
+		this_thread::sleep_for(chrono::milliseconds(1500));
+	}
+
+	else if (s72 == "O" && s73 == "O" && s74 == "O" && s75 == "O")
+	{
+		cout << "O wins!";
+		this_thread::sleep_for(chrono::milliseconds(1500));
+	}
+
+	else if (s13 == "O" && s14 == "O" && s15 == "O" && s16 == "O")
+	{
+		cout << "O wins!";
+		this_thread::sleep_for(chrono::milliseconds(1500));
+	}
+
+	else if (s23 == "O" && s24 == "O" && s25 == "O" && s26 == "O")
+	{
+		cout << "O wins!";
+		this_thread::sleep_for(chrono::milliseconds(1500));
+	}
+
+	else if (s33 == "O" && s34 == "O" && s35 == "O" && s36 == "O")
+	{
+		cout << "O wins!";
+         this_thread::sleep_for(chrono::milliseconds(1500));
+	}
+
+	else if (s43 == "O" && s44 == "O" && s45 == "O" && s46 == "O")
+	{
+		cout << "O wins!";
+		this_thread::sleep_for(chrono::milliseconds(1500));
+	}
+
+	else if (s53 == "O" && s54 == "O" && s55 == "O" && s56 == "O")
+	{
+		cout << "O wins!";
+		this_thread::sleep_for(chrono::milliseconds(1500));
+	}
+
+	else if (s63 == "O" && s64 == "O" && s65 == "O" && s66 == "O")
+	{
+		cout << "O wins!";
+		this_thread::sleep_for(chrono::milliseconds(1500));
+	}
+
+	else if (s73 == "O" && s74 == "O" && s75 == "O" && s76 == "O")
+	{
+		cout << "O wins!";
+		this_thread::sleep_for(chrono::milliseconds(1500));
+	}
+
+	else if (s11 == "O" && s21 == "O" && s31 == "O" && s41 == "O")
+	{
+		cout << "O wins!";
+		this_thread::sleep_for(chrono::milliseconds(1500));
+	}
+
+	else if (s12 == "O" && s22 == "O" && s32 == "O" && s42 == "O")
+	{
+		cout << "O wins!";
+		this_thread::sleep_for(chrono::milliseconds(1500));
+	}
+
+    else if (s13 == "O" && s23 == "O" && s33 == "O" && s43 == "O")
+	{
+		cout << "O wins!";
+		this_thread::sleep_for(chrono::milliseconds(1500));
+	}
+
+	else if (s14 == "O" && s24 == "O" && s34 == "O" && s44 == "O")
+	{
+		cout << "O wins!";
+		this_thread::sleep_for(chrono::milliseconds(1500));
+	}
+
+	else if (s15 == "O" && s25 == "O" && s35 == "O" && s45 == "O")
+	{
+		cout << "O wins!";
+         this_thread::sleep_for(chrono::milliseconds(1500));
+	}
+
+	else if (s16 == "O" && s26 == "O" && s36 == "O" && s46 == "O")
+	{
+		cout << "O wins!";
+		this_thread::sleep_for(chrono::milliseconds(1500));
+	}
+
+	else if (s21 == "O" && s31 == "O" && s41 == "O" && s51 == "O")
+	{
+		cout << "O wins!";
+		this_thread::sleep_for(chrono::milliseconds(1500));
+	}
+
+	else if (s22 == "O" && s32 == "O" && s42 == "O" && s52 == "O")
+	{
+		cout << "O wins!";
+		this_thread::sleep_for(chrono::milliseconds(1500));
+	}
+
+    else if (s23 == "O" && s33 == "O" && s43 == "O" && s53 == "O")
+	{
+		cout << "O wins!";
+		this_thread::sleep_for(chrono::milliseconds(1500));
+	}
+
+	else if (s24 == "O" && s34 == "O" && s44 == "O" && s54 == "O")
+	{
+		cout << "O wins!";
+		this_thread::sleep_for(chrono::milliseconds(1500));
+	}
+
+	else if (s25 == "O" && s35 == "O" && s45 == "O" && s55 == "O")
+	{
+		cout << "O wins!";
+		this_thread::sleep_for(chrono::milliseconds(1500));
+	}
+
+	else if (s26 == "O" && s36 == "O" && s46 == "O" && s56 == "O")
+	{
+		cout << "O wins!";
+		this_thread::sleep_for(chrono::milliseconds(1500));
+	}
+
+	else if (s31 == "O" && s41 == "O" && s51 == "O" && s61 == "O")
+	{
+		cout << "O wins!";
+		this_thread::sleep_for(chrono::milliseconds(1500));
+	}
+
+    else if (s32 == "O" && s42 == "O" && s52 == "O" && s62 == "O")
+	{
+		cout << "O wins!";
+		this_thread::sleep_for(chrono::milliseconds(1500));
+	}
+
+	else if (s33 == "O" && s43 == "O" && s53 == "O" && s63 == "O")
+	{
+		cout << "O wins!";
+		this_thread::sleep_for(chrono::milliseconds(1500));
+	}
+
+	else if (s34 == "O" && s44 == "O" && s54 == "O" && s64 == "O")
+	{
+		cout << "O wins!";
+         this_thread::sleep_for(chrono::milliseconds(1500));
+	}
+
+	else if (s35 == "O" && s45 == "O" && s55 == "O" && s65 == "O")
+	{
+		cout << "O wins!";
+		this_thread::sleep_for(chrono::milliseconds(1500));
+	}
+
+	else if (s36 == "O" && s46 == "O" && s56 == "O" && s66 == "O")
+	{
+		cout << "O wins!";
+		this_thread::sleep_for(chrono::milliseconds(1500));
+	}
+
+	else if (s41 == "O" && s51 == "O" && s61 == "O" && s71 == "O")
+	{
+		cout << "O wins!";
+		this_thread::sleep_for(chrono::milliseconds(1500));
+	}
+
+	else if (s42 == "O" && s52 == "O" && s62 == "O" && s72 == "O")
+	{
+		cout << "O wins!";
+		this_thread::sleep_for(chrono::milliseconds(1500));
+	}
+
+	else if (s43 == "O" && s53 == "O" && s63 == "O" && s73 == "O")
+	{
+		cout << "O wins!";
+		this_thread::sleep_for(chrono::milliseconds(1500));
+	}
+
+	else if (s44 == "O" && s54 == "O" && s64 == "O" && s74 == "O")
+	{
+		cout << "O wins!";
+		this_thread::sleep_for(chrono::milliseconds(1500));
+	}
+
+	else if (s45 == "O" && s55 == "O" && s65 == "O" && s75 == "O")
+	{
+		cout << "O wins!";
+		this_thread::sleep_for(chrono::milliseconds(1500));
+	}
+
+	else if (s46 == "O" && s56 == "O" && s66 == "O" && s76 == "O")
+	{
+		cout << "O wins!";
+		this_thread::sleep_for(chrono::milliseconds(1500));
+	}
+
+	else if (s11 == "O" && s22 == "O" && s33 == "O" && s44 == "O")
+	{
+		cout << "O wins!";
+		this_thread::sleep_for(chrono::milliseconds(1500));
+	}
+
+	else if (s12 == "O" && s23 == "O" && s34 == "O" && s45 == "O")
+	{
+		cout << "O wins!";
+		this_thread::sleep_for(chrono::milliseconds(1500));
+	}
+
+    else if (s13 == "O" && s24 == "O" && s35 == "O" && s46 == "O")
+	{
+		cout << "O wins!";
+         this_thread::sleep_for(chrono::milliseconds(1500));
+	}
+
+	else if (s21 == "O" && s32 == "O" && s43 == "O" && s54 == "O")
+	{
+		cout << "O wins!";
+		this_thread::sleep_for(chrono::milliseconds(1500));
+	}
+
+	else if (s22 == "O" && s33 == "O" && s44 == "O" && s55 == "O")
+	{
+		cout << "O wins!";
+		this_thread::sleep_for(chrono::milliseconds(1500));
+	}
+
+	else if (s23 == "O" && s34 == "O" && s45 == "O" && s56 == "O")
+	{
+		cout << "O wins!";
+		this_thread::sleep_for(chrono::milliseconds(1500));
+	}
+
+	else if (s31 == "O" && s42 == "O" && s53 == "O" && s64 == "O")
+	{
+		cout << "O wins!";
+		this_thread::sleep_for(chrono::milliseconds(1500));
+	}
+
+	else if (s32 == "O" && s43 == "O" && s54 == "O" && s65 == "O")
+	{
+		cout << "O wins!";
+		this_thread::sleep_for(chrono::milliseconds(1500));
+	}
+
+	else if (s33 == "O" && s44 == "O" && s55 == "O" && s66 == "O")
+	{
+		cout << "O wins!";
+		this_thread::sleep_for(chrono::milliseconds(1500));
+	}
+
+	else if (s41 == "O" && s52 == "O" && s63 == "O" && s74 == "O")
+	{
+		cout << "O wins!";
+		this_thread::sleep_for(chrono::milliseconds(1500));
+	}
+
+	else if (s42 == "O" && s53 == "O" && s64 == "O" && s75 == "O")
+	{
+		cout << "O wins!";
+		this_thread::sleep_for(chrono::milliseconds(1500));
+	}
+
+	else if (s43 == "O" && s54 == "O" && s65 == "O" && s76 == "O")
+	{
+		cout << "O wins!";
+         this_thread::sleep_for(chrono::milliseconds(1500));
+	}
+    else if (s41 == "O" && s32 == "O" && s23 == "O" && s14 == "O")
+    {
+        cout << "O wins!";
+         this_thread::sleep_for(chrono::milliseconds(1500));
+    }
+    else if (s51 == "O" && s42 == "O" && s33 == "O" && s24 == "O")
+    {
+        cout << "O wins!";
+		this_thread::sleep_for(chrono::milliseconds(1500));
+    }
+    else if (s42 == "O" && s33 == "O" && s24 == "O" && s15 == "O")
+    {
+        cout << "O wins!";
+		this_thread::sleep_for(chrono::milliseconds(1500));
+    }
+    else if (s61 == "O" && s52 == "O" && s43 == "O" && s44 == "O")
+    {
+        cout << "O wins!";
+		this_thread::sleep_for(chrono::milliseconds(1500));
+    }
+    else if (s52 == "O" && s43 == "O" && s34 == "O" && s25 == "O")
+    {
+        cout << "O wins!";
+		this_thread::sleep_for(chrono::milliseconds(1500));
+    }
+    else if (s43 == "O" && s34 == "O" && s25 == "O" && s16 == "O")
+    {
+        cout << "O wins!";
+		this_thread::sleep_for(chrono::milliseconds(1500));
+    }
+    else if (s71 == "O" && s62 == "O" && s53 == "O" && s44 == "O")
+    {
+        cout << "O wins!";
+		this_thread::sleep_for(chrono::milliseconds(1500));
+    }
+    else if (s62 == "O" && s53 == "O" && s44 == "O" && s35 == "O")
+    {
+        cout << "O wins!";
+		this_thread::sleep_for(chrono::milliseconds(1500));
+    }
+    else if (s53 == "O" && s44 == "O" && s35 == "O" && s26 == "O")
+    {
+        cout << "O wins!";
+		this_thread::sleep_for(chrono::milliseconds(1500));
+    }
+    else if (s72 == "O" && s63 == "O" && s54 == "O" && s45 == "O")
+    {
+        cout << "O wins!";
+		this_thread::sleep_for(chrono::milliseconds(1500));
+    }
+    else if (s63 == "O" && s54 == "O" && s45 == "O" && s36 == "O")
+    {
+        cout << "O wins!";
+		this_thread::sleep_for(chrono::milliseconds(1500));
+    }
+    else if (s73 == "O" && s64 == "O" && s55 == "O" && s46 == "O")
+    {
+        cout << "O wins!";
+		this_thread::sleep_for(chrono::milliseconds(1500));
+    }
+}
+void First()
+{
+    cin >> first;
+    if (first == "1")
+    {
+        if (s11 == "X" || s11 == "O")
+        {
+            if (s12 == "X" || s12 == "O")
+            {
+                if (s13 == "X" || s13 == "O")
+                {
+                    if (s14 == "X" || s14 == "O")
+                    {
+                        if (s15 == "X" || s15 == "O")
+                        {
+                            if (s16 == "X" || s16 == "O")
+                            {
+                                cout << "You lost a turn for cheating";
+                                this_thread::sleep_for(chrono::milliseconds(1500));
+                            }
+                            else if (s16 != "X" || s16 != "O")
+                            {
+                                s16 = "X";
+                            }
+                        }
+                        else if (s15 != "X" || s15 != "O")
+                        {
+                            s15 = "X";
+                            Wins();
+                        }
+                    }
+                    else if (s14 != "X" || s14 != "O")
+                    {
+                        s14 = "X";
+                        Wins();
+                    }
+                }
+                else if (s13 != "X" || s13 != "O")
+                {
+                    s13 = "X";
+                    Wins();
+                }
+            }
+            else if (s12 != "X" || s12 != "O")
+            {
+                s12 = "X";
+                Wins();
+            }
+        }
+        else if (s11 != "X" || s11 != "O")
+        {
+            s11 = "X";
+            Wins();
+        }
+    }
+    if (first == "2")
+    {
+        if (s21 == "X" || s21 == "O")
+        {
+            if (s22 == "X" || s22 == "O")
+            {
+                if (s23 == "X" || s23 == "O")
+                {
+                    if (s24 == "X" || s24 == "O")
+                    {
+                        if (s25 == "X" || s25 == "O")
+                        {
+                            if (s26 == "X" || s26 == "O")
+                            {
+                                cout << "You lost a turn for cheating";
+                                this_thread::sleep_for(chrono::milliseconds(1500));
+                            }
+                            else if (s26 != "X" || s26 != "O")
+                            {
+                                s26 = "X";
+                            }
+                        }
+                        else if (s25 != "X" || s25 != "O")
+                        {
+                            s25 = "X";
+                            Wins();
+                        }
+                    }
+                    else if (s24 != "X" || s24 != "O")
+                    {
+                        s24 = "X";
+                        Wins();
+                    }
+                }
+                else if (s23 != "X" || s23 != "O")
+                {
+                    s23 = "X";
+                    Wins();
+                }
+            }
+            else if (s22 != "X" || s22 != "O")
+            {
+                s22 = "X";
+                Wins();
+            }
+        }
+        else if (s21 != "X" || s21 != "O")
+        {
+            s21 = "X";
+            Wins();
+        }
+    }
+    if (first == "3")
+    {
+        if (s31 == "X" || s31 == "O")
+        {
+            if (s32 == "X" || s32 == "O")
+            {
+                if (s33 == "X" || s33 == "O")
+                {
+                    if (s34 == "X" || s34 == "O")
+                    {
+                        if (s35 == "X" || s35 == "O")
+                        {
+                            if (s36 == "X" || s36 == "O")
+                            {
+                                cout << "You lost a turn for cheating";
+                                this_thread::sleep_for(chrono::milliseconds(1500));
+                            }
+                            else if (s36 != "X" || s36 != "O")
+                            {
+                                s36 = "X";
+                            }
+                        }
+                        else if (s35 != "X" || s35 != "O")
+                        {
+                            s35 = "X";
+                            Wins();
+                        }
+                    }
+                    else if (s34 != "X" || s34 != "O")
+                    {
+                        s34 = "X";
+                        Wins();
+                    }
+                }
+                else if (s33 != "X" || s33 != "O")
+                {
+                    s33 = "X";
+                    Wins();
+                }
+            }
+            else if (s32 != "X" || s32 != "O")
+            {
+                s32 = "X";
+                Wins();
+            }
+        }
+        else if (s31 != "X" || s31 != "O")
+        {
+            s31 = "X";
+            Wins();
+        }
+    }
+    if (first == "4")
+    {
+        if (s41 == "X" || s41 == "O")
+        {
+            if (s42 == "X" || s42 == "O")
+            {
+                if (s43 == "X" || s43 == "O")
+                {
+                    if (s44 == "X" || s44 == "O")
+                    {
+                        if (s45 == "X" || s45 == "O")
+                        {
+                            if (s46 == "X" || s46 == "O")
+                            {
+                                cout << "You lost a turn for cheating";
+                                this_thread::sleep_for(chrono::milliseconds(1500));
+                            }
+                            else if (s46 != "X" || s46 != "O")
+                            {
+                                s46 = "X";
+                            }
+                        }
+                        else if (s45 != "X" || s45 != "O")
+                        {
+                            s45 = "X";
+                            Wins();
+                        }
+                    }
+                    else if (s44 != "X" || s44 != "O")
+                    {
+                        s44 = "X";
+                        Wins();
+                    }
+                }
+                else if (s43 != "X" || s43 != "O")
+                {
+                    s43 = "X";
+                    Wins();
+                }
+            }
+            else if (s42 != "X" || s42 != "O")
+            {
+                s42 = "X";
+                Wins();
+            }
+        }
+        else if (s41 != "X" || s41 != "O")
+        {
+            s41 = "X";
+            Wins();
+        }
+    }
+    if (first == "5")
+    {
+        if (s51 == "X" || s51 == "O")
+        {
+            if (s52 == "X" || s52 == "O")
+            {
+                if (s53 == "X" || s53 == "O")
+                {
+                    if (s54 == "X" || s54 == "O")
+                    {
+                        if (s55 == "X" || s55 == "O")
+                        {
+                            if (s56 == "X" || s56 == "O")
+                            {
+                                cout << "You lost a turn for cheating";
+                                this_thread::sleep_for(chrono::milliseconds(1500));
+                            }
+                            else if (s56 != "X" || s56 != "O")
+                            {
+                                s56 = "X";
+                            }
+                        }
+                        else if (s55 != "X" || s55 != "O")
+                        {
+                            s55 = "X";
+                            Wins();
+                        }
+                    }
+                    else if (s54 != "X" || s54 != "O")
+                    {
+                        s54 = "X";
+                        Wins();
+                    }
+                }
+                else if (s53 != "X" || s53 != "O")
+                {
+                    s53 = "X";
+                    Wins();
+                }
+            }
+            else if (s52 != "X" || s52 != "O")
+            {
+                s52 = "X";
+                Wins();
+            }
+        }
+        else if (s51 != "X" || s51 != "O")
+        {
+            s51 = "X";
+            Wins();
+        }
+    }
+    if (first == "6")
+    {
+        if (s61 == "X" || s61 == "O")
+        {
+            if (s62 == "X" || s62 == "O")
+            {
+                if (s63 == "X" || s63 == "O")
+                {
+                    if (s64 == "X" || s64 == "O")
+                    {
+                        if (s65 == "X" || s65 == "O")
+                        {
+                            if (s66 == "X" || s66 == "O")
+                            {
+                                cout << "You lost a turn for cheating";
+                                this_thread::sleep_for(chrono::milliseconds(1500));
+                            }
+                            else if (s66 != "X" || s66 != "O")
+                            {
+                                s66 = "X";
+                            }
+                        }
+                        else if (s65 != "X" || s65 != "O")
+                        {
+                            s65 = "X";
+                            Wins();
+                        }
+                    }
+                    else if (s64 != "X" || s64 != "O")
+                    {
+                        s64 = "X";
+                        Wins();
+                    }
+                }
+                else if (s63 != "X" || s63 != "O")
+                {
+                    s63 = "X";
+                    Wins();
+                }
+            }
+            else if (s62 != "X" || s62 != "O")
+            {
+                s62 = "X";
+                Wins();
+            }
+        }
+        else if (s61 != "X" || s61 != "O")
+        {
+            s61 = "X";
+            Wins();
+        }
+    }
+    if (first == "7")
+    {
+        if (s71 == "X" || s71 == "O")
+        {
+            if (s72 == "X" || s72 == "O")
+            {
+                if (s73 == "X" || s73 == "O")
+                {
+                    if (s74 == "X" || s74 == "O")
+                    {
+                        if (s75 == "X" || s75 == "O")
+                        {
+                            if (s76 == "X" || s76 == "O")
+                            {
+                                cout << "You lost a turn for cheating";
+                                this_thread::sleep_for(chrono::milliseconds(1500));
+                            }
+                            else if (s76 != "X" || s76 != "O")
+                            {
+                                s76 = "X";
+                            }
+                        }
+                        else if (s75 != "X" || s75 != "O")
+                        {
+                            s75 = "X";
+                            Wins();
+                        }
+                    }
+                    else if (s74 != "X" || s74 != "O")
+                    {
+                        s74 = "X";
+                        Wins();
+                    }
+                }
+                else if (s73 != "X" || s73 != "O")
+                {
+                    s73 = "X";
+                    Wins();
+                }
+            }
+            else if (s72 != "X" || s72 != "O")
+            {
+                s72 = "X";
+                Wins();
+            }
+        }
+        else if (s71 != "X" || s71 != "O")
+        {
+            s71 = "X";
+            Wins();
+        }
+    }
+}
+void Second() {
+    cin >> second;
+    if (second == "1")
+    {
+        if (s11 == "X" || s11 == "O")
+        {
+            if (s12 == "X" || s12 == "O")
+            {
+                if (s13 == "X" || s13 == "O")
+                {
+                    if (s14 == "X" || s14 == "O")
+                    {
+                        if (s15 == "X" || s15 == "O")
+                        {
+                            if (s16 == "X" || s16 == "O")
+                            {
+                                cout << "You lost a turn for cheating";
+                                this_thread::sleep_for(chrono::milliseconds(1500));
+                            }
+                            else if (s16 != "X" || s16 != "O")
+                            {
+                                s16 = "O";
+                            }
+                        }
+                        else if (s15 != "X" || s15 != "O")
+                        {
+                            s15 = "O";
+                            Wins();
+                        }
+                    }
+                    else if (s14 != "X" || s14 != "O")
+                    {
+                        s14 = "O";
+                        Wins();
+                    }
+                }
+                else if (s13 != "X" || s13 != "O")
+                {
+                    s13 = "O";
+                    Wins();
+                }
+            }
+            else if (s12 != "X" || s12 != "O")
+            {
+                s12 = "O";
+                Wins();
+            }
+        }
+        else if (s11 != "X" || s11 != "O")
+        {
+            s11 = "O";
+            Wins();
+        }
+    }
+    if (second == "2")
+    {
+        if (s21 == "X" || s21 == "O")
+        {
+            if (s22 == "X" || s22 == "O")
+            {
+                if (s23 == "X" || s23 == "O")
+                {
+                    if (s24 == "X" || s24 == "O")
+                    {
+                        if (s25 == "X" || s25 == "O")
+                        {
+                            if (s26 == "X" || s26 == "O")
+                            {
+                                cout << "You lost a turn for cheating";
+                                this_thread::sleep_for(chrono::milliseconds(1500));
+                            }
+                            else if (s26 != "X" || s26 != "O")
+                            {
+                                s26 = "O";
+                            }
+                        }
+                        else if (s25 != "X" || s25 != "O")
+                        {
+                            s25 = "O";
+                            Wins();
+                        }
+                    }
+                    else if (s24 != "X" || s24 != "O")
+                    {
+                        s24 = "O";
+                        Wins();
+                    }
+                }
+                else if (s23 != "X" || s23 != "O")
+                {
+                    s23 = "O";
+                    Wins();
+                }
+            }
+            else if (s22 != "X" || s22 != "O")
+            {
+                s22 = "O";
+                Wins();
+            }
+        }
+        else if (s21 != "X" || s21 != "O")
+        {
+            s21 = "O";
+            Wins();
+        }
+    }
+    if (second == "3")
+    {
+        if (s31 == "X" || s31 == "O")
+        {
+            if (s32 == "X" || s32 == "O")
+            {
+                if (s33 == "X" || s33 == "O")
+                {
+                    if (s34 == "X" || s34 == "O")
+                    {
+                        if (s35 == "X" || s35 == "O")
+                        {
+                            if (s36 == "X" || s36 == "O")
+                            {
+                                cout << "You lost a turn for cheating";
+                                this_thread::sleep_for(chrono::milliseconds(1500));
+                            }
+                            else if (s36 != "X" || s36 != "O")
+                            {
+                                s36 = "O";
+                            }
+                        }
+                        else if (s35 != "X" || s35 != "O")
+                        {
+                            s35 = "O";
+                            Wins();
+                        }
+                    }
+                    else if (s34 != "X" || s34 != "O")
+                    {
+                        s34 = "O";
+                        Wins();
+                    }
+                }
+                else if (s33 != "X" || s33 != "O")
+                {
+                    s33 = "O";
+                    Wins();
+                }
+            }
+            else if (s32 != "X" || s32 != "O")
+            {
+                s32 = "O";
+                Wins();
+            }
+        }
+        else if (s31 != "X" || s31 != "O")
+        {
+            s31 = "O";
+            Wins();
+        }
+    }
+    if (second == "4")
+    {
+        if (s41 == "X" || s41 == "O")
+        {
+            if (s42 == "X" || s42 == "O")
+            {
+                if (s43 == "X" || s43 == "O")
+                {
+                    if (s44 == "X" || s44 == "O")
+                    {
+                        if (s45 == "X" || s45 == "O")
+                        {
+                            if (s46 == "X" || s46 == "O")
+                            {
+                                cout << "You lost a turn for cheating";
+                                this_thread::sleep_for(chrono::milliseconds(1500));
+                            }
+                            else if (s46 != "X" || s46 != "O")
+                            {
+                                s46 = "O";
+                            }
+                        }
+                        else if (s45 != "X" || s45 != "O")
+                        {
+                            s45 = "O";
+                            Wins();
+                        }
+                    }
+                    else if (s44 != "X" || s44 != "O")
+                    {
+                        s44 = "O";
+                        Wins();
+                    }
+                }
+                else if (s43 != "X" || s43 != "O")
+                {
+                    s43 = "O";
+                    Wins();
+                }
+            }
+            else if (s42 != "X" || s42 != "O")
+            {
+                s42 = "O";
+                Wins();
+            }
+        }
+        else if (s41 != "X" || s41 != "O")
+        {
+            s41 = "O";
+            Wins();
+        }
+    }
+    if (second == "5")
+    {
+        if (s51 == "X" || s51 == "O")
+        {
+            if (s52 == "X" || s52 == "O")
+            {
+                if (s53 == "X" || s53 == "O")
+                {
+                    if (s54 == "X" || s54 == "O")
+                    {
+                        if (s55 == "X" || s55 == "O")
+                        {
+                            if (s56 == "X" || s56 == "O")
+                            {
+                                cout << "You lost a turn for cheating";
+                                this_thread::sleep_for(chrono::milliseconds(1500));
+                            }
+                            else if (s56 != "X" || s56 != "O")
+                            {
+                                s56 = "O";
+                            }
+                        }
+                        else if (s55 != "X" || s55 != "O")
+                        {
+                            s55 = "O";
+                            Wins();
+                        }
+                    }
+                    else if (s54 != "X" || s54 != "O")
+                    {
+                        s54 = "O";
+                        Wins();
+                    }
+                }
+                else if (s53 != "X" || s53 != "O")
+                {
+                    s53 = "O";
+                    Wins();
+                }
+            }
+            else if (s52 != "X" || s52 != "O")
+            {
+                s52 = "O";
+                Wins();
+            }
+        }
+        else if (s51 != "X" || s51 != "O")
+        {
+            s51 = "O";
+            Wins();
+        }
+    }
+    if (second == "6")
+    {
+        if (s61 == "X" || s61 == "O")
+        {
+            if (s62 == "X" || s62 == "O")
+            {
+                if (s63 == "X" || s63 == "O")
+                {
+                    if (s64 == "X" || s64 == "O")
+                    {
+                        if (s65 == "X" || s65 == "O")
+                        {
+                            if (s66 == "X" || s66 == "O")
+                            {
+                                cout << "You lost a turn for cheating";
+                                this_thread::sleep_for(chrono::milliseconds(1500));
+                            }
+                            else if (s66 != "X" || s66 != "O")
+                            {
+                                s66 = "O";
+                            }
+                        }
+                        else if (s65 != "X" || s65 != "O")
+                        {
+                            s65 = "O";
+                            Wins();
+                        }
+                    }
+                    else if (s64 != "X" || s64 != "O")
+                    {
+                        s64 = "O";
+                        Wins();
+                    }
+                }
+                else if (s63 != "X" || s63 != "O")
+                {
+                    s63 = "O";
+                    Wins();
+                }
+            }
+            else if (s62 != "X" || s62 != "O")
+            {
+                s62 = "O";
+                Wins();
+            }
+        }
+        else if (s61 != "X" || s61 != "O")
+        {
+            s61 = "O";
+            Wins();
+        }
+    }
+    if (second == "7")
+    {
+        if (s71 == "X" || s71 == "O")
+        {
+            if (s72 == "X" || s72 == "O")
+            {
+                if (s73 == "X" || s73 == "O")
+                {
+                    if (s74 == "X" || s74 == "O")
+                    {
+                        if (s75 == "X" || s75 == "O")
+                        {
+                            if (s76 == "X" || s76 == "O")
+                            {
+                                cout << "You lost a turn for cheating";
+                                this_thread::sleep_for(chrono::milliseconds(1500));
+                            }
+                            else if (s16 != "X" || s16 != "O")
+                            {
+                                s76 = "O";
+                            }
+                        }
+                        else if (s75 != "X" || s75 != "O")
+                        {
+                            s75 = "O";
+                            Wins();
+                        }
+                    }
+                    else if (s74 != "X" || s74 != "O")
+                    {
+                        s74 = "O";
+                        Wins();
+                    }
+                }
+                else if (s73 != "X" || s73 != "O")
+                {
+                    s73 = "O";
+                    Wins();
+                }
+            }
+            else if (s72 != "X" || s72 != "O")
+            {
+                s72 = "O";
+                Wins();
+            }
+        }
+        else if (s71 != "X" || s71 != "O")
+        {
+            s71 = "O";
+            Wins();
+        }
+    }
+}
+
+/*
+    if (s11 == "X" || s11 == "O" && s21 == "X" || s21 == "O" && s31 == "X" || s31 == "O" && s41 == "X" || s41 == "O" && s51 == "X" || s51 == "O" && s61 == "X" || s61 == "O" && s71 == "X" || s71 == "O" && s12 == "X" || s12 == "O" && s22 == "X" || s22 == "O" && s32 == "X" || s32 == "O" && s42 == "X" || s42 == "O" && s52 == "X" || s52 == "O" && s62 == "X" || s62 == "O" && s72 == "X" || s72 == "O" && s13 == "X" || s13 == "O" && s23 == "X" || s23 == "O" && s33 == "X" || s33 == "O" && s43 == "X" || s43 == "O" && s53 == "X" || s53 == "O" && s63 == "X" || s63 == "O" && s73 == "X" || s73 == "O" && s14 == "X" || s14 == "O" && s24 == "X" || s24 == "O" && s34 == "X" || s34 == "O" && s44 == "X" || s44 == "O" && s54 == "X" || s54 == "O" && s64 == "X" || s64 == "O" && s74 == "X" || s74 == "O" && s14 == "X" || s15 == "O" && s25 == "X" || s25 == "O" && s35 == "X" || s35 == "O" && s45 == "X" || s45 == "O" && s55 == "X" || s55 == "O" && s65 == "X" || s65 == "O" && s75 == "X" || s75 == "O" && s16 == "X" || s16 == "O" && s26 == "X" || s26 == "O" && s36 == "X" || s36 == "O" && s46 == "X" || s46 == "O" && s56 == "X" || s56 == "O" && s66 == "X" || s66 == "O" && s76 == "X" || s76 == "O")
+    {
+        cout << "It's a draw!";
+    }
+*/
+
+int main()
+{
+    /*BEFORE COPY AND PASTING SOMETHING TO EVERYTHING, MAKE SURE WE HAVE DONE EVERYTHING WORKS,
+    AND THAT WE HAVE DONE ALL THAT WE WANT FOR THAT SECTION*/
+    Vars();
+    check = "y";
+    BG();
+    while (check == "y")
+    {
+        BoardX();
+        First();
+        Wins();
+        BoardO();
+        Second();
+        Wins();
+        this_thread::sleep_for(chrono::milliseconds(1500));
+    }
+}
